@@ -1,0 +1,1 @@
+Download mnist dataset from http://pan.baidu.com/s/1dDliZDJ !
