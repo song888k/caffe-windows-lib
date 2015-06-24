@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcaffe", "libcaffe\libcaffe.vcxproj", "{3F688F10-2FBE-43C9-A530-95B53B522FF0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "caffe", "caffe\caffe.vcxproj", "{15EE9223-F6B5-4582-A4B0-AAB24EBC0FAB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "compute_image_mean", "compute_image_mean\compute_image_mean.vcxproj", "{26F7C57C-E419-4DC6-A3C6-168A33D9C7B2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "convert_imageset", "convert_imageset\convert_imageset.vcxproj", "{1383928B-6CC7-4FD3-A09F-0128B6B6DC9A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "extract_features", "extract_features\extract_features.vcxproj", "{BD360B10-B98D-4879-A679-12FB39BCD4C8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "upgrade_net_proto_binary", "upgrade_net_proto_binary\upgrade_net_proto_binary.vcxproj", "{90BBE1CD-CA84-4804-890C-B8974FD42968}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "upgrade_net_proto_text", "upgrade_net_proto_text\upgrade_net_proto_text.vcxproj", "{C94CB312-DAA2-4010-93B1-BBC555FD4DB6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F688F10-2FBE-43C9-A530-95B53B522FF0}.Debug|x64.ActiveCfg = Release|x64
+		{3F688F10-2FBE-43C9-A530-95B53B522FF0}.Debug|x64.Build.0 = Release|x64
+		{3F688F10-2FBE-43C9-A530-95B53B522FF0}.Release|x64.ActiveCfg = Release|x64
+		{3F688F10-2FBE-43C9-A530-95B53B522FF0}.Release|x64.Build.0 = Release|x64
+		{15EE9223-F6B5-4582-A4B0-AAB24EBC0FAB}.Debug|x64.ActiveCfg = Debug|x64
+		{15EE9223-F6B5-4582-A4B0-AAB24EBC0FAB}.Debug|x64.Build.0 = Debug|x64
+		{15EE9223-F6B5-4582-A4B0-AAB24EBC0FAB}.Release|x64.ActiveCfg = Release|x64
+		{15EE9223-F6B5-4582-A4B0-AAB24EBC0FAB}.Release|x64.Build.0 = Release|x64
+		{26F7C57C-E419-4DC6-A3C6-168A33D9C7B2}.Debug|x64.ActiveCfg = Debug|x64
+		{26F7C57C-E419-4DC6-A3C6-168A33D9C7B2}.Debug|x64.Build.0 = Debug|x64
+		{26F7C57C-E419-4DC6-A3C6-168A33D9C7B2}.Release|x64.ActiveCfg = Release|x64
+		{26F7C57C-E419-4DC6-A3C6-168A33D9C7B2}.Release|x64.Build.0 = Release|x64
+		{1383928B-6CC7-4FD3-A09F-0128B6B6DC9A}.Debug|x64.ActiveCfg = Debug|x64
+		{1383928B-6CC7-4FD3-A09F-0128B6B6DC9A}.Debug|x64.Build.0 = Debug|x64
+		{1383928B-6CC7-4FD3-A09F-0128B6B6DC9A}.Release|x64.ActiveCfg = Release|x64
+		{1383928B-6CC7-4FD3-A09F-0128B6B6DC9A}.Release|x64.Build.0 = Release|x64
+		{BD360B10-B98D-4879-A679-12FB39BCD4C8}.Debug|x64.ActiveCfg = Debug|x64
+		{BD360B10-B98D-4879-A679-12FB39BCD4C8}.Debug|x64.Build.0 = Debug|x64
+		{BD360B10-B98D-4879-A679-12FB39BCD4C8}.Release|x64.ActiveCfg = Release|x64
+		{BD360B10-B98D-4879-A679-12FB39BCD4C8}.Release|x64.Build.0 = Release|x64
+		{90BBE1CD-CA84-4804-890C-B8974FD42968}.Debug|x64.ActiveCfg = Debug|x64
+		{90BBE1CD-CA84-4804-890C-B8974FD42968}.Debug|x64.Build.0 = Debug|x64
+		{90BBE1CD-CA84-4804-890C-B8974FD42968}.Release|x64.ActiveCfg = Release|x64
+		{90BBE1CD-CA84-4804-890C-B8974FD42968}.Release|x64.Build.0 = Release|x64
+		{C94CB312-DAA2-4010-93B1-BBC555FD4DB6}.Debug|x64.ActiveCfg = Debug|x64
+		{C94CB312-DAA2-4010-93B1-BBC555FD4DB6}.Debug|x64.Build.0 = Debug|x64
+		{C94CB312-DAA2-4010-93B1-BBC555FD4DB6}.Release|x64.ActiveCfg = Release|x64
+		{C94CB312-DAA2-4010-93B1-BBC555FD4DB6}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
