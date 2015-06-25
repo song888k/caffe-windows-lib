@@ -18,6 +18,7 @@ Build
 4. Open vsproject/vsproject.sln. 
 5. Compile libcaffe.
 6. Compile other caffe tools (optional).
+7. Compile your own code using libcaffe.dll (remember to add **CPU_ONLY** macro in preprocessor).
    
 MNIST example
 ======
